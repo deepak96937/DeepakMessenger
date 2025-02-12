@@ -4,7 +4,7 @@ import './ProfileUpdate.css'
 const ProfileUpdate = () => {
   return (
     <div>
-      
+      you are in profileUpdate page 
     </div>
   )
 }
