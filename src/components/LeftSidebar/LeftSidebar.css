@@ -80,3 +80,11 @@
     color: #9f9f9f;
     font-size: 11px;
 }
+
+.fridends:hover{
+    background-color: #077EFF;
+}
+
+.fridends:hover span{
+    color: white;
+}
