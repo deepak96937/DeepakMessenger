@@ -35,7 +35,7 @@ const signup = async (username, email, password) => {
 
         // Save empty chat data for the user
         await setDoc(doc(db, "chats", user.uid), {
-            chatData: []  // Fixed typo (was `dhatData`)
+            chatsData: []  // Fixed typo (was `dhatData`)
         });
 
         toast.success("Signup successful!");
@@ -64,4 +64,4 @@ const logout = async () => {
     }
 }
 
-export { signup, login };
+export { signup, login , logout, auth, db};
